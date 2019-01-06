@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jetpack Architecture Playground</string>
+    <string name="app_name_short">Architecture Playground</string>
+
+    <string name="main_launch">Launch Sample Screen</string>
+
+    <string name="edit_profile_title">ユーザー情報の編集</string>
+    <string name="edit_profile_last_name">姓</string>
+    <string name="edit_profile_first_name">名</string>
+    <string name="edit_profile_kana_last_name">セイ</string>
+    <string name="edit_profile_kana_first_name">メイ</string>
+    <string name="edit_profile_phone_number">電話番号</string>
+    <string name="edit_profile_birthday">生年月日</string>
+    <string name="edit_profile_zip_code">郵便番号</string>
+    <string name="edit_profile_preference">都道府県</string>
+    <string name="edit_profile_cities">市区町村</string>
+    <string name="edit_profile_address1">町名番地</string>
+    <string name="edit_profile_address2">建物名・部屋番号（任意）</string>
+    <string name="edit_profile_save">保存</string>
+    <string name="edit_profile_fetch_failed_message">ユーザー情報の取得に失敗しました</string>
+    <string name="edit_profile_update_failed_message">ユーザー情報の保存に失敗しました</string>
+    <string name="edit_profile_updated_message">ユーザー情報を保存しました</string>
+    <string name="edit_profile_invalid_message">入力内容をご確認ください</string>
+    <string name="edit_profile_error_last_name_empty">姓を入力してください</string>
+    <string name="edit_profile_error_first_name_empty">名を入力してください</string>
+    <string name="edit_profile_error_kana_last_name_empty">セイを入力してください</string>
+    <string name="edit_profile_error_kana_first_name_empty">メイを入力してください</string>
+    <string name="edit_profile_error_phone_number_empty">電話番号を入力してください</string>
+    <string name="edit_profile_error_phone_number_invalid">電話番号を正しく入力してください</string>
+    <string name="edit_profile_error_birthday_empty">生年月日を選択してください</string>
+    <string name="edit_profile_error_zip_code_empty">郵便番号を入力してください</string>
+    <string name="edit_profile_error_zip_code_invalid">"郵便番号は数字7桁で入力してください</string>
+    <string name="edit_profile_error_prefecture_empty">都道府県を選択してください</string>
+    <string name="edit_profile_error_cities_empty">市区町村を入力してください</string>
+    <string name="edit_profile_error_cities_length">市区町村は%1$d文字以内で入力してください</string>
+    <string name="edit_profile_error_address1_empty">町名番地を入力してください</string>
+    <string name="edit_profile_error_address1_length">町名番地は%1$d文字以内で入力してください</string>
+    <string name="edit_profile_error_address2_length">建物名・部屋番号は%1$d文字以内で入力してください</string>
+
+    <string name="birthday_format">%1$d年%2$d月%3$d日</string>
+    <string-array name="prefectures">
+        <item>北海道</item>
+        <item>青森県</item>
+        <item>岩手県</item>
+        <item>宮城県</item>
+        <item>秋田県</item>
+        <item>山形県</item>
+        <item>福島県</item>
+        <item>茨城県</item>
+        <item>栃木県</item>
+        <item>群馬県</item>
+        <item>埼玉県</item>
+        <item>千葉県</item>
+        <item>東京都</item>
+        <item>神奈川県</item>
+        <item>新潟県</item>
+        <item>富山県</item>
+        <item>石川県</item>
+        <item>福井県</item>
+        <item>山梨県</item>
+        <item>長野県</item>
+        <item>岐阜県</item>
+        <item>静岡県</item>
+        <item>愛知県</item>
+        <item>三重県</item>
+        <item>滋賀県</item>
+        <item>京都府</item>
+        <item>大阪府</item>
+        <item>兵庫県</item>
+        <item>奈良県</item>
+        <item>和歌山県</item>
+        <item>鳥取県</item>
+        <item>島根県</item>
+        <item>岡山県</item>
+        <item>広島県</item>
+        <item>山口県</item>
+        <item>徳島県</item>
+        <item>香川県</item>
+        <item>愛媛県</item>
+        <item>高知県</item>
+        <item>福岡県</item>
+        <item>佐賀県</item>
+        <item>長崎県</item>
+        <item>熊本県</item>
+        <item>大分県</item>
+        <item>宮崎県</item>
+        <item>鹿児島県</item>
+        <item>沖縄県</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#fedbd0</color>
+    <color name="on_primary">#442c2e</color>
+    <color name="secondary">#feeae6</color>
+    <color name="on_secondary">#442c2e</color>
+    <color name="background">#fef7f5</color>
+    <color name="on_background">#442c2e</color>
+    <color name="surface">#fefbfa</color>
+    <color name="on_surface">#442c2e</color>
+    <color name="on_background_secondary">#7c6b6d</color>
+    <color name="on_background_hint">#a19596</color>
+    <color name="control_activated">#442c2e</color>
+    <color name="control_highlight">#52442c2e</color>
+    <color name="error">#b83b46</color>
+    <color name="status_bar">#f0cac0</color>
+    <color name="edge_effect">#442c2e</color>
+</resources>

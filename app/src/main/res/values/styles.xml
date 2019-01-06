@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Playground" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorControlActivated">@color/control_activated</item>
+        <item name="colorControlHighlight">@color/control_highlight</item>
+        <item name="colorError">@color/error</item>
+
+        <item name="android:textColorPrimary">@color/on_background</item>
+        <item name="android:textColorSecondary">@color/on_background_secondary</item>
+        <item name="android:textColorHint">@color/on_background_hint</item>
+        <item name="android:textCursorDrawable">@drawable/text_cursor</item>
+
+        <item name="android:statusBarColor">@color/status_bar</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorEdgeEffect">@color/edge_effect</item>
+        <item name="android:datePickerDialogTheme">@style/ThemeOverlay.Playground.Dialog.DatePicker</item>
+
+        <item name="materialButtonStyle">@style/Widget.Playground.Button</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Playground.Button</item>
+        <item name="textColorAlertDialogListItem">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.Playground.Dialog.DatePicker" parent="ThemeOverlay.MaterialComponents.Dialog">
+        <item name="colorPrimary">@color/on_background</item>
+        <item name="colorSecondary">@color/on_background</item>
+    </style>
+
+    <style name="Widget.Playground.Toolbar.Primary" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="elevation">2dp</item>
+    </style>
+
+    <style name="Widget.Playground.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">16dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+    <style name="Widget.Playground.TextInputLayout.OutlinedBox.Dense" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="counterTextColor">?android:attr/textColorHint</item>
+        <item name="counterOverflowTextColor">?attr/colorError</item>
+        <item name="hintTextColor">@color/text_input_hint_text</item>
+        <item name="android:textColorHint">?android:attr/textColorHint</item>
+    </style>
+
+    <style name="TextAppearance.Playground.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="preferred_max_content_width">720dp</dimen>
+</resources>
