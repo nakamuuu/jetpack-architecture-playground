@@ -28,6 +28,10 @@
         <item name="textColorAlertDialogListItem">?android:attr/textColorPrimary</item>
     </style>
 
+    <style name="ThemeOverlay.Playground.Button.Light" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorPrimary">@color/surface</item>
+    </style>
+
     <style name="ThemeOverlay.Playground.Dialog.DatePicker" parent="ThemeOverlay.MaterialComponents.Dialog">
         <item name="colorPrimary">@color/on_background</item>
         <item name="colorSecondary">@color/on_background</item>
@@ -40,6 +44,10 @@
     <style name="Widget.Playground.Button" parent="Widget.MaterialComponents.Button">
         <item name="cornerRadius">16dp</item>
         <item name="android:minHeight">56dp</item>
+    </style>
+
+    <style name="Widget.Playground.Button.Icon">
+        <item name="android:paddingLeft">12dp</item>
     </style>
 
     <style name="Widget.Playground.TextInputLayout.OutlinedBox.Dense" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">

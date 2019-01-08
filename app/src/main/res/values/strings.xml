@@ -4,6 +4,7 @@
     <string name="app_name_short">Architecture Playground</string>
 
     <string name="main_launch">Launch Sample Screen</string>
+    <string name="main_open_repository">Open Repository Page</string>
 
     <string name="edit_profile_title">ユーザー情報の編集</string>
     <string name="edit_profile_last_name">姓</string>
